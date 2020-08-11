@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 .into(imageView);
 
         String name = "ssdsdsds";
-        
+
+        int age = 10;
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
