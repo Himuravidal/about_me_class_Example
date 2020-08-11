@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 .centerCrop()
                 .into(imageView);
 
+        String name = "ssdsdsds";
+        
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
